@@ -55,9 +55,9 @@ git
   .then(() => console.log('All done'));
 ```
 
-### Editing multiple files
+### Updating multiple files
 
-To add mutltiple files in one commit:
+To update multiple files in one commit:
 
 ```js
 const git = Git({
@@ -73,7 +73,7 @@ git
   .then(() => console.log('All done'));
 ```
 
-To add mutltiple files in multiple commits:
+To update multiple files in multiple commits:
 
 ```js
 const git = Git({
