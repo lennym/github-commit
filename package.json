@@ -1,6 +1,6 @@
 {
   "name": "@lennym/commit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple API for committing file changes to github",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/lennym/github-commit.git"
   },
-  "keywords": ["git", "github", "commit"],
+  "keywords": [
+    "git",
+    "github",
+    "commit"
+  ],
   "author": "Leonard Martin",
   "license": "MIT",
   "bugs": {
