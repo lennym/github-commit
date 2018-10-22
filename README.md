@@ -89,3 +89,22 @@ git
   .push()
   .then(() => console.log('All done'));
 ```
+
+### Non-text files
+
+To add a non-text file, pass a buffer instead of a string to `add`:
+
+```js
+const img = fs.readFileSync('./some-image.png');
+
+const git = Git({
+  repo: 'lennym/test-repo',
+  token: '...'
+});
+
+git
+  .add('image.png', img)
+  .commit('Add image file')
+  .push()
+  .then(() => console.log('All done'));
+```
