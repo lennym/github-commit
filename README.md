@@ -92,7 +92,7 @@ git
 
 ### Non-text files
 
-To add a non-text file, pass a buffer instead of a string to `add`:
+To add a non-text file, pass a `Buffer` instead of a string to `add`:
 
 ```js
 const img = fs.readFileSync('./some-image.png');
