@@ -108,3 +108,17 @@ git
   .push()
   .then(() => console.log('All done'));
 ```
+
+## Other actions
+
+### Get the hash of the latest commit
+
+```js
+const git = Git({
+  repo: 'lennym/test-repo',
+  token: '...'
+});
+
+git.head()
+  .then(sha => console.log(sha));
+```
