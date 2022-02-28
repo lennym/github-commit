@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/lennym/github-commit#readme",
   "dependencies": {
-    "@octokit/rest": "^15.15.1",
+    "@octokit/rest": "^18.12.0",
     "debug": "^4.1.0"
   },
   "devDependencies": {
