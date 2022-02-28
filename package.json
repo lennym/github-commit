@@ -1,6 +1,6 @@
 {
   "name": "@lennym/commit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple API for committing file changes to github",
   "main": "index.js",
   "scripts": {
